@@ -1,26 +1,30 @@
 /* mobile view first! */
 body {
   display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
   width: 480px;
   margin: 0 auto;
 }
-
+/* left off here.... */
 div {
   width: 100%;
-  float: left;
 }
 
 div:nth-child(1) {
+  grid-row-start: 1;
+  grid-row-end: ;
   height: 75px;
 }
 
 div:nth-child(2) {
   height: 150px;
+  grid-row-start: 2;
+  grid-column-start: 1;
   line-height: 150px;
-  /* if you know the height, this works easiest */
 }
 
-div:nth-child(3), div:nth-child(4) {
+/* div:nth-child(3), div:nth-child(4) {
   line-height: 125px;
   height: 125px;
 }
@@ -37,7 +41,7 @@ div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8){
 div:nth-child(9) {
   height: 80px;
   line-height: 80px;
-}
+} */ */
 
 /* desktop view */
 @media (min-width: 960px) {
