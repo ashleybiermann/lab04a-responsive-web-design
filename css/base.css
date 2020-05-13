@@ -3,3 +3,39 @@
   background-color: #ccc;
   outline: magenta 1px dotted;
 }
+
+div:nth-child(1) {
+  background-color: teal;
+}
+
+div:nth-child(2) {
+  background-color: tomato;
+}
+
+div:nth-child(3) {
+  background-color: wheat;
+}
+
+div:nth-child(4) {
+  background-color: yellow;
+}
+
+div:nth-child(5) {
+  background-color: skyblue;
+}
+
+div:nth-child(6) {
+  background-color: seagreen;
+}
+
+div:nth-child(7) {
+  background-color: pink;
+}
+
+div:nth-child(8) {
+  background-color: orange;
+}
+
+div:nth-child(9) {
+  background-color: mediumvioletred;
+}
