@@ -1,6 +1,9 @@
 /* mobile view first! */
 /* could make the rows responsive by taking out the hard-coded height values */
 @media only screen and (max-width: 480px) {
+  * {
+    background-color: blueviolet;
+  }
 
   body {
     display: grid;
@@ -82,6 +85,10 @@
 
 /* tablet view */
 @media only screen and (min-width: 481px) and (max-width: 959px) {
+  * {
+    background-color: greenyellow;
+  }
+
   body {
     display: grid;
     grid-template-columns: repeat(4) 1fr;
@@ -156,6 +163,10 @@
 
 /* desktop view */
 @media only screen and (min-width: 960px) {
+  * {
+    background-color: burlywood;
+  }
+
   body {
     display: grid;
     grid-template-columns: 200px 1fr 1fr 1fr 1fr;
