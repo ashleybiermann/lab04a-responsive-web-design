@@ -2,8 +2,6 @@
 /* could make the rows responsive by taking out the hard-coded height values */
 @media only screen and (max-width: 480px) {
   * {
-    outline: red dotted 1px;
-    background-color: blueviolet;
     text-align: center;
   }
   
@@ -82,8 +80,6 @@
 /* tablet view */
 @media only screen and (min-width: 481px) and (max-width: 959px) {
   * {
-    outline: dotted red 1px;
-    background-color: greenyellow;
     text-align: center;
   }
   
@@ -163,8 +159,6 @@
 @media only screen and (min-width: 960px) {
   * {
     text-align: center;
-    outline: red dotted 1px;
-    background-color: burlywood;
   }
 
   body {
