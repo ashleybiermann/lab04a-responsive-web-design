@@ -2,9 +2,11 @@
 /* could make the rows responsive by taking out the hard-coded height values */
 @media only screen and (max-width: 480px) {
   * {
+    outline: red dotted 1px;
     background-color: blueviolet;
+    text-align: center;
   }
-
+  
   body {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -69,12 +71,6 @@
     height: 250px;
     line-height: 250px;
   }
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 250px;
-    width: 50%; */
   div:nth-child(9) {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -86,17 +82,19 @@
 /* tablet view */
 @media only screen and (min-width: 481px) and (max-width: 959px) {
   * {
+    outline: dotted red 1px;
     background-color: greenyellow;
+    text-align: center;
   }
-
+  
   body {
     display: grid;
     grid-template-columns: repeat(4) 1fr;
     grid-template-rows: 80px 175px 150px 250px 125px;
     width: auto;
-    overflow-auto;
+    overflow: auto;
   }
-
+  
   div:nth-child(1) {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -164,6 +162,8 @@
 /* desktop view */
 @media only screen and (min-width: 960px) {
   * {
+    text-align: center;
+    outline: red dotted 1px;
     background-color: burlywood;
   }
 
@@ -172,8 +172,6 @@
     grid-template-columns: 200px 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 200px 250px 150px;
     width: auto; 
-    /* margin-top: 50px;
-    margin-bottom: 50px; */
     overflow: auto;
   }
 
@@ -181,6 +179,7 @@
     grid-column-start: 1;
     grid-column-end: 6;
     height: 100px;
+
   }
 
   div:nth-child(2) {
